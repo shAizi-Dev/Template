@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@1&family=Poppins:wght@400;700&display=swap');
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+:root
+{
+	--main-color: #f82249;
+}
+.theme-color{
+	color: var(--main-color);
+}
+button.btn{
+	color :var(--main-color);
+	
+	background: none;
+	border: 2px solid var(--main-color);
+	border-radius: 35px;
+} 
+
+button.btn:hover{
+	background: var(--main-color);
+	color: white ;
+}
+/*.navbar-brand{
+	background: var(--main-color) !important;
+	color: white !important; 
+}*/
+.navbar ul li a.act, .navbar ul li :hover
+{
+	background: var(--main-color);
+	color: white !important;
+	padding: 7px 15px;
+	margin: 0px 15px;
+}
+
+.main{
+	background-image:  url("bga.jpg");
+	height: 100vh;
+	background-repeat:no-repeat ;
+	background-size: cover;
+}
+
+
+
+
